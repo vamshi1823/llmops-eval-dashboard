@@ -1,0 +1,29 @@
+{
+  "test_cases": [
+    {
+      "id": 1,
+      "question": "What is machine learning?",
+      "expected_answer": "Machine learning is a subset of artificial intelligence where systems learn from data without being explicitly programmed. Models improve their performance through experience."
+    },
+    {
+      "id": 2,
+      "question": "Explain the difference between supervised and unsupervised learning.",
+      "expected_answer": "Supervised learning uses labeled data where inputs and outputs are known. Unsupervised learning finds patterns in unlabeled data without predetermined outputs."
+    },
+    {
+      "id": 3,
+      "question": "What is overfitting and how do you prevent it?",
+      "expected_answer": "Overfitting occurs when a model learns noise instead of patterns, performing well on training data but poorly on new data. Prevent it using regularization, cross-validation, and early stopping."
+    },
+    {
+      "id": 4,
+      "question": "Describe a project where you used Python for data analysis.",
+      "expected_answer": "A well-structured answer should mention: the problem, the dataset size, tools used (Pandas, NumPy), what analysis was done, and measurable results."
+    },
+    {
+      "id": 5,
+      "question": "What is a neural network and how does it learn?",
+      "expected_answer": "A neural network consists of interconnected layers of nodes that process data. It learns by adjusting weights through backpropagation to minimize error between predictions and actual values."
+    }
+  ]
+}
