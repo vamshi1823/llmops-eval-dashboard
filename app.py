@@ -4,8 +4,8 @@ from pathlib import Path
 import pandas as pd
 import streamlit as st
 
-from src.evaluator import (evaluate_all_prompts, get_prompt_comparison,
-                           load_golden_dataset, load_prompts)
+from evaluator import (evaluate_all_prompts, get_prompt_comparison,
+                       load_golden_dataset, load_prompts)
 
 st.set_page_config(page_title="LLMOps Evaluation Dashboard", layout="wide")
 
